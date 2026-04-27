@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <section className="card">
-      <h1>Hi, I am Ari Stone.</h1>
+      <h1>Hi, I am Dion Gusija.</h1>
       <p>
         I am a frontend-focused full-stack developer who designs and builds web apps
         that are fast, accessible, and easy to maintain.

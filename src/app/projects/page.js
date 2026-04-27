@@ -2,14 +2,14 @@ const projects = [
   {
     name: "LaunchPad CRM",
     summary:
-      "A sales dashboard that tracks leads, automates follow-ups, and visualizes conversion trends.",
-    stack: "Next.js, PostgreSQL, Prisma, Chart.js",
+      "A CRM platform for managing leads, sales pipelines, and customer follow-ups with role-based access.",
+    stack: "React, PHP, MySQL",
   },
   {
     name: "CityEats Finder",
     summary:
-      "A restaurant discovery platform with filters, user reviews, maps, and curated local lists.",
-    stack: "React, Node.js, Express, MongoDB",
+      "A restaurant discovery and review app with advanced search filters and location-based recommendations.",
+    stack: "Angular, PHP, MySQL",
   },
 ];
 

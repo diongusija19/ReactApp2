@@ -2,7 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Ari Stone | Portfolio",
+  title: "Dion Gusija | Portfolio",
   description: "Personal portfolio built with Next.js",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body>
         <header className="site-header">
           <div className="container nav-wrap">
-            <Link href="/" className="brand">Ari Stone</Link>
+            <Link href="/" className="brand">Dion Gusija</Link>
             <nav>
               {navLinks.map((link) => (
                 <Link key={link.href} href={link.href} className="nav-link">
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <main className="container">{children}</main>
 
         <footer className="site-footer">
-          <div className="container">© {new Date().getFullYear()} Ari Stone</div>
+          <div className="container">© {new Date().getFullYear()} Dion Gusija</div>
         </footer>
       </body>
     </html>

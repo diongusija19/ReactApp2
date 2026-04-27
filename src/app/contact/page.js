@@ -1,10 +1,12 @@
+"use client";
+
 export default function ContactPage() {
   return (
     <section className="card">
       <h1>Contact</h1>
-      <p>Email: ari.stone@example.com</p>
-      <p>LinkedIn: linkedin.com/in/ari-stone</p>
-      <p>GitHub: github.com/ari-stone</p>
+      <p>Email: diongusija12@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/dion-gusija</p>
+      <p>GitHub: github.com/diongusija19</p>
 
       <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
         <label htmlFor="name">Name</label>
